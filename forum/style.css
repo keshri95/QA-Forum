@@ -1,0 +1,114 @@
+.input{
+    width: 370px;
+    height: 40px;
+    background-color: #FEFFFF;
+    border: 0.3px solid #17252A;
+    border-radius: 4px;
+}
+#login{
+    width: 370px;
+    height: 35px;
+    border: 0.3px solid ;
+    background-color: #17252A;
+    color: #2B7A78;
+    border-radius: 0px;
+    cursor: pointer;
+}
+body{
+    background-color: white;
+}
+.form{
+    position: relative;
+    left: 37px;
+    top: 30px;
+    color: #17252A;
+    border-radius:4px;
+}
+header{
+    background-color: #17252A;
+    color: #FEFFFF;
+    text-align: center;
+    padding: 40px;
+    margin: 0px;
+}
+#register{
+    display: block;
+    border: none;
+    background-color: #17252A;
+    border-bottom: 2px solid #DEF2F1;
+    text-decoration: none;
+    text-align: center;
+    color: #2B7A78;
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+}
+#wrapper{
+    position: relative;
+    left: 460px;
+    top: 60px;
+    background-color: #FEFFFF;
+    width: 450px;
+    height: 300px;
+}
+#footer{
+    background-color: #3AAFA9;
+    color: #17252A;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+}
+.error{
+    border: 2px solid #BE1717;
+    background-color: #BE1717;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding-left: 90px;
+    padding-right: 127px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+#regwrap{
+    position: relative;
+    top: 30px;
+    left: 400px;
+    width: 530px;
+    background-color: #FEFFFF;
+}
+#regform{
+    padding: 60px;
+    position: relative;
+    left: 30px;
+    color: #17252A;
+}
+#email,#username,#password,#confpassword,#reg{
+    width: 350px;
+    height: 35px;
+    border: 1px solid #17252A;
+    border-radius: 3px;
+}
+#reg{
+    position: relative;
+    top: 2px;
+    background-color: #17252A;
+    color: #2B7A78;
+}
+#alreg{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2B7A78;
+    width: 85%;
+    margin-top: 8px;
+    font-size: 120%;
+}
+#answerwrapper{
+    position: relative;
+    border: 2px solid black;
+}

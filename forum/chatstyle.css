@@ -1,0 +1,112 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px;
+    margin-top: 32px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #17252A;
+    border-right: 1px solid black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #DEF2F1;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    background-color: #DEF2F1;
+    margin-left: 300px;
+    font-size: 28px;
+    padding: 0px 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 542px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+#chatform{
+    border-top: 2px solid black;
+    margin-left: 290px;
+}
+#message{
+    width: 92.5%;
+    padding: 1%;
+    padding-left: 3%;
+    border: none;
+}
+#chat_data{
+    border: 1px solid #2B7A78;
+    background-color: #2B7A78;
+    color: white;
+    float: left;
+    width: 55%;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+#my_chat_data{
+    border: 1px solid #2B7A78;
+    background-color: white;
+    color: #2B7A78;
+    float: right;
+    width: 55%;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+.topnav{
+    background-color: #17252A;
+    overflow: hidden;
+    border-bottom: 1px solid #DEF2F1;
+}
+.topnav a{
+    display: block;
+    text-decoration: none;
+    float: left;
+    background-color : #17252A;
+    padding: 5px 10px;
+    margin: 0px;
+    text-align: center;
+    color: #DEF2F1;
+    font-size: 20px;
+}
+.topnav a:hover{
+    background-color: #FEFFFF;
+    color: #2B7A78;
+}
+.topnav a.active{
+    background-color: white;
+}
+.logout{
+    background-color: black;
+}
+#logout{
+    float: right;
+    text-decoration: none;
+    background-color: white;
+    color: #15092C;
+    border: 1px solid #15092C;
+    padding: 4px;
+    text-align: center;
+
+}

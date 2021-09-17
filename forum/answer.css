@@ -1,0 +1,11 @@
+#answer{
+    resize: none;
+    position: relative;
+    left: 25%;
+}
+#ansbtn{
+    position: absolute;
+    left: 25%;
+    top: 26%;
+    width: 600px;
+}

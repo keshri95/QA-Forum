@@ -1,0 +1,254 @@
+.topnav{
+    background-color: #17252A;
+    overflow: hidden;
+    border-bottom: 1px solid #DEF2F1;
+}
+.topnav a{
+    display: block;
+    text-decoration: none;
+    float: left;
+    background-color : #17252A;
+    padding: 5px 10px;
+    margin: 0px;
+    text-align: center;
+    color: #DEF2F1;
+    font-size: 20px;
+}
+.topnav a:hover{
+    background-color: #FEFFFF;
+    color: #2B7A78;
+}
+.topnav a.active{
+    background-color: white;
+}
+.logout{
+    background-color: black;
+}
+#logout{
+    float: right;
+    text-decoration: none;
+    background-color: white;
+    color: #15092C;
+    border: 1px solid #15092C;
+    padding: 4px;
+    text-align: center;
+
+}
+#f01{
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    width: 100%;
+    height: 10%;
+}
+.odd{
+    display: block;
+    text-decoration: none;
+    color: #2B7A78;
+    padding-right: 40px;
+}
+.even{
+    display: block;
+    color: #3AAFA9;
+}
+#dispcat{
+    float: left;
+    text-align: center;
+    border: none;
+    border-bottom: none;
+    width:300px;
+    position: absolute;
+}
+.disptopic{
+    background-color: #FEFFFF;
+    float: right;
+    border: 1px solid #17252A;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 700px;
+    position: relative;
+    right: 300px;
+    top: 7px;
+    border-radius: 4px;
+}
+.topicname{
+    text-decoration: none;
+    color: #17252A;
+}
+.topicname:hover{
+    color: #2B7A78;
+}
+.answerlink{
+    color: #3AAFA9;
+    text-decoration: none;
+}
+.answerlink:hover{
+    color: #2B7A78;
+}
+/*code to style create_topic page*/
+#question{
+    resize: none;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #17252A;
+    border-radius: 3px;
+}
+#desc{
+    resize: none;
+    width: 500px;
+    height: 80px;
+    border: 1px solid #17252A;
+    border-radius: 3px;
+}
+#post{
+    width: 500px;
+    height: 35px;
+    color: #2B7A78;
+    background-color: #17252A;
+    border: 1px solid #17252A;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#f02{
+    color: #17252A;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+#w01{
+    width: 600px;
+    background-color: #FEFFFF;
+    padding: 50px;
+    position: relative;
+    top: 60px;
+    left: 370px;
+}
+body{
+    background-color: white;
+}
+select{
+    background-color: #FEFFFF;
+    color: #3AAFA9;
+    border: 1px solid #17252A;
+    position: relative;
+    top : 7px;
+    width: 500px;
+    height: 35px;
+}
+option{
+    color: #3AAFA9;
+}
+/*code to style create_cat page*/
+#category{
+    background-color: #FEFFFF;
+    padding: 60px;
+    width: 650px;
+    position: relative;
+    top: 70px;
+    left: 350px;
+}
+#catdesc{
+    resize: none;
+    width: 500px;
+    height: 80px;
+    border: 1px solid #17252A;
+    border-radius: 3px;
+    
+}
+#catname{
+    width: 500px;
+    border: 1px solid #17252A;
+    border-radius: 3px;
+}
+input[type="submit"]{
+    background-color: #17252A;
+    color: #2B7A78;
+    width: 500px;
+    height: 35px;
+    border: 1px solid #17252A;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+#f03{
+    color: #17252a;
+}
+
+#comments{
+    width: 820px;
+    position: relative;
+    left: 250px;
+    top: 5px;
+    padding: 10px;
+    background-color: #FEFFFF;
+    color: #17252A;
+}
+#comment{
+    width: 800px;
+    resize: none;
+    height: 80px;
+    border: 1px solid #17252A;
+}
+#suggest{
+    width: 800px;
+}
+#comdiv{
+    width:820px;
+    position:relative;
+    left:252px;
+    top:12px;
+    background-color:#FEFFFF;
+}
+#comwrap{
+    position:relative;
+    left: 20px;
+}
+#d01{
+    position: relative;
+    left:0px;
+    top: 0px;
+    background-color: #FEFFFF;
+    padding-left: 490px; 
+}
+#alltopics{
+    position: relative;
+    left: 300px;
+}
+#d02{
+    padding-left: 160px;
+    background-color: #FEFFFF;
+    color: #17252A;
+}
+#t01{
+    width: 700px;
+    resize: none;
+    height: 80px;
+    border: 1px solid #17252A;
+}
+#b01{
+    width:700px;
+}
+#d04{
+    padding-left: 300px;
+}
+#askaquestion{
+    display: block;
+    text-decoration: none;
+    background-color: rgb(143, 6, 6);
+    color: white;
+    text-align: left;
+    font-size: 180%;
+    float: right;
+    border: 1px solid #17252A;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 700px;
+    position: relative;
+    right: 300px;
+    top: 10px;
+    border-radius: 4px;
+}
